@@ -5,18 +5,16 @@
     --gradient: linear-gradient(225deg, #667eea 0%, #764ba2 100%);
     
 }
-/* Header background */
 .header {
   background-color: #5e42a6;
-  background-image: url('./imgs/intro.svg');
+  background-image: url('./assests/intro.svg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px 0;
 }
 
-/* Glass navbar */
 .glass-nav {
-  background: rgba(255, 255, 255, 0.08); /* very light white */
+  background: rgba(255, 255, 255, 0.08); 
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 16px;
@@ -24,7 +22,6 @@
   padding: 10px 20px;
 }
 
-/* Nav links */
 .glass-nav .nav-link {
   color: #fff !important;
   font-weight: 500;
@@ -37,7 +34,6 @@
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
 
-/* Brand */
 .glass-nav .navbar-brand {
   color: #fff !important;
   font-size: 1.4rem;
