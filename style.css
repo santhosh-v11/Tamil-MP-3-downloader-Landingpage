@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #5e42a6;
+    --secondary-color: #ded9ed;
+    --text-colr: #f093fb;
+    --gradient: linear-gradient(225deg, #667eea 0%, #764ba2 100%);
+    
+}
+/* Header background */
+.header {
+  background-color: #5e42a6;
+  background-image: url('./imgs/intro.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0;
+}
+
+/* Glass navbar */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.08); /* very light white */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+}
+
+/* Nav links */
+.glass-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.glass-nav .nav-link:hover {
+  color: #e3d9ff !important;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+/* Brand */
+.glass-nav .navbar-brand {
+  color: #fff !important;
+  font-size: 1.4rem;
+}
+
+.install{
+    background-color:whitesmoke;
+    color: #5e42a6;
+}
+
+.install-table{
+    background: var(--gradient);
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(102, 126, 234, 0.2);
+    text-align: left;
+    height: auto;
+}
+.install-table .step {
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid cyan;
+}
+strong{
+    color: var(--text-colr);
+}
+.faq{
+    background-color: whitesmoke;
+}

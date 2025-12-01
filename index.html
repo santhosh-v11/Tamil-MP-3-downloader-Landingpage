@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamilmp3.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header vh-100 d-flex flex-column ">
+        <nav class="navbar navbar-expand-lg glass-nav navbar-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">TamilMp3.com</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="hero container d-flex flex-column justify-content-center align-items-center h-100 text-center">
+            <div>
+                <p class="display-2 text-light">Download Any Song Instantly - Python Powered Tool</p>
+                <p class="lead text-light">A lightweight Python script that lets you download songs directly to Windows
+                    &
+                    macOS. No ads. No complexity. Just download and play.</p>
+                <div class="buttons">
+                    <a class="btn btn-primary btn-lg rounded-pill border-2 ">Download</a>
+                    <a class="btn btn-outline-light btn-lg rounded-pill">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="install h-100 text-center py-4">
+        <div class="container">
+            <h1 class="py-2 fw-bold">Installation Guide</h1>
+
+            <div class="row  align-items-stretch">
+                <div class="col col-lg-6 d-flex">
+                    <div class="install-table text-light flex-grow-1 p-3">
+                        <h3><i class="fab fa-windows" style="color: #00a4ef;"></i> Windows</h3>
+                        <div class="step">
+                            <strong>Step 1: Download Python</strong>
+                            <p>Visit python.org and download the latest Python installer. Run the installer and check
+                                "Add Python to PATH".</p>
+                        </div>
+                        <div class="step">
+                            <strong>Step 2: Open CMD</strong>
+                            <p>Press Win + R, type "cmd", and press Enter to open Command Prompt.</p>
+                        </div>
+
+                        <div class="step">
+                            <strong>Step 3: Run the Script</strong>
+                            <p>Navigate to the script folder using <code>cd path/to/tamil-mp3-downloader</code> and run
+                                <code>python main-classic.py</code>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-6 d-flex flex-column ">
+                    <div class="install-table text-light flex-grow-1 p-3">
+                        <h3><i class="fab fa-apple" style="color: #a2aaad;"></i> macOS</h3>
+                        <div class="step">
+                            <strong>Step 1: Install Homebrew</strong>
+                            <p>Open Terminal and run:<br>
+                                <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>
+                            </p>
+                        </div>
+                        <div class="step">
+                            <strong>Step 2: Install Python</strong>
+                            <p>Run <code>brew install python3</code> to install Python via Homebrew.</p>
+                        </div>
+                        <div class="step">
+                            <strong>Step 3: Run the Script</strong>
+                            <p>Navigate to the script directory with <code>cd path/to/tamil-mp3-downloader</code> and
+                                execute <code>python3 main-classic.py</code>.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="faq pb-5 h-100 ">
+     <div class="container">
+        <h1 class="text-center pb-5">Frequently Asked Questions</h1>
+           <div class="accordion " id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Is this tool legal?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        This is a open source project used only for educational purpose.
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Does this script work on linux?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                       Yes, with Python installed it runs perfectly on Linux too! Simply install Python 3 using your distribution's package manager and run the script using <code>python3 mp3-downloader.py. </code> All major Linux distributions are supported.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Do i need any dependencies?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                       No, it's a standalone script! The tool is designed to work with Python's standard library, so you don't need to install any additional packages or dependencies. Just Python and you're ready to go.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        How large the downloads?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Standard MP3 sizes, typically 3–10 MB per song depending on the length and quality. The tool automatically optimizes for the best balance between file size and audio quality, ensuring you get high-quality audio without excessive storage use.
+                    </div>
+                </div>
+            </div>
+             <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Can i custom the script?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Yes, it's open-source and editable! Feel free to modify the code to suit your needs, add new features, or improve existing functionality. We welcome contributions on GitHub, and the clean codebase makes customization straightforward even for Python beginners.
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    </section>
+
+    <footer class="bg-dark text-light text-center py-5">
+        <p>  Built by Open-Source Contributors  </p>
+        <p>Version: v1.0.0 | License: MIT License</p>
+        <p>Email: support@pythondownloader.dev</p>
+        <p>© 2024 Python MP3 Downloader. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
