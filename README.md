@@ -1,6 +1,5 @@
 # Tamil MP3 Downloader Landing Page
 
-![Preview](./assests/preview.png)
 
 Welcome to the **Tamil MP3 Downloader Landing Page** repository!  
 This is a simple and elegant landing page designed for a Tamil MP3 music downloader application. The page serves as a welcoming entry for users, offering an introduction and download links for the app.
@@ -12,8 +11,8 @@ This is a simple and elegant landing page designed for a Tamil MP3 music downloa
 - 🌐 Built with HTML, CSS, and Bootsrap
 
 ## Preview
+![Preview](./assests/preview.png)
 
-![Website Preview](assets/preview.png)
 
 ## Getting Started
 
