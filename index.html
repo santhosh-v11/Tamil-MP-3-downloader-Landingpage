@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamilmp3.com</title>
+    <title>TamilMP3 Downloader </title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -14,11 +14,10 @@
 </head>
 
 <body>
-    <header class="header vh-100 d-flex flex-column ">
-        <nav class="navbar navbar-expand-lg glass-nav navbar-dark">
+    <header class="header vh-100 d-flex flex-column " id="home">
+        <nav class="navbar navbar-expand-md glass-nav navbar-dark mx-2">
             <div class="container">
-                <a class="navbar-brand fw-bold" href="#">TamilMp3.com</a>
-
+                <a class="navbar-brand" href="#">TamilMp3 Downloader</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,8 +26,8 @@
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" href="#">Home</a>
-                        <a class="nav-link" href="#installation">Installation Guide</a>
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#workflow">Workflow</a>
                         <a class="nav-link" href="#faq">FAQ</a>
                     </div>
                 </div>
@@ -36,26 +35,131 @@
         </nav>
         <div class="hero container d-flex flex-column justify-content-center align-items-center h-100 text-center">
             <div>
-                <p class="display-2 text-light">Download Any Song Instantly - Python Powered Tool</p>
-                <p class="lead text-light">A lightweight Python script that lets you download songs directly to Windows
-                    &
-                    macOS. No ads. No complexity. Just download and play.</p>
+                <p class="caption display-4 text-light">Download your Favorite songs <br> on your windows Now!</p>
+                <p class="lead text-light">Zero Ads Zero Cost <br>Just download and play.</p>
                 <div class="buttons">
-                    <a class="btn btn-primary btn-lg rounded-pill border-2" href="./assests/tamil-mp3-downloader-main.zip">Download</a>
-                    <a class="btn btn-outline-light btn-lg rounded-pill" href="https://github.com/anburocky3/tamil-mp3-downloader.git">GitHub</a>
+                    <a class="btn btn-primary btn-lg rounded-pill border-2"
+                        href="./assests/tamil-mp3-downloader-v2.0.0.exe">Download</a>
+                    <a class="btn btn-outline-light btn-lg rounded-pill"
+                        href="https://github.com/anburocky3/tamil-mp3-downloader.git">GitHub</a>
                 </div>
             </div>
         </div>
 
     </header>
 
-    <section class="install h-100 text-center py-4" id="installation">
-        <div class="container">
-            <h1 class="py-2 fw-bold">Installation Guide</h1>
+    <section class="useage pb-5 " id="workflow">
+        <h2 class="text-center pt-5 text-primary display-5">How it Works</h2>
+    <div class="accordion accordion-flush" id="mainAccordion">
+        <div class="container  d-flex align-items-center gap-4 ">
+            <div class="circlestep d-none d-md-flex ">1</div>
+            <div class="flex-grow-1">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header " id="flush-headingOne">
+                        <button class="accordion-button collapsed left d-inline d-sm-flex" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <a href="./assests/tamil-mp3-downloader-v2.0.0.exe" class="text-light pe-1 text-decoration-none d-inline">Download</a> this .exe file then Open it.
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne"
+                        data-bs-parent="#mainAccordion">
+                        <div class="accordion-body text-center w-auto h-25 ">
+                            <p class="lead text-light">Now your terminal will look like this. You have 5 categories to download songs. Enter your choice:</p>
+                            <img src="./assests/mainmenu1.png" alt="previewmainmenu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  d-flex align-items-center gap-4 py-2">
+            <div class="flex-grow-1 ">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingtwo">
+                        <button class="accordion-button collapsed right" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsetwo" aria-expanded="false" aria-controls="flush-collapsetwo">
+                            Choose the category you like. example:1
+                        </button>
+                    </h2>
+                    <div id="flush-collapsetwo" class="accordion-collapse collapse" aria-labelledby="flush-headingtwo"
+                        data-bs-parent="#mainAccordion">
+                        <div class="accordion-body text-center">
+                            <p class="lead text-light">Every categories have sub categories. You can select multiple hits at a time or you can choose as you wish. Like that in every option you have many selections.</p>
+                            <img src="./assests/menu3.png" alt="previewimage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="circlestep d-none d-md-flex">2</div>
+        </div>
+        <div class="container  d-flex align-items-center gap-4 pb-2">
+            <div class="circlestep d-none d-md-flex">3</div>
+            <div class="flex-grow-1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingthree">
+                        <button class="accordion-button collapsed left" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
+                            Select the desierd subcategries
+                        </button>
+                    </h2>
+                    <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree"
+                        data-bs-parent="#mainAccordion">
+                        <div class="accordion-body text-center w-auto h-25">
+                            <p class="lead text-light">Next it will ask download locatoin name Now enter a folder name as u like. example:aijthsongs</p>
+                            <img src="./assests/3.png" alt="previewmainmenu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container  d-flex align-items-center gap-4 pb-2">
+            <div class="flex-grow-1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingfour">
+                        <button class="accordion-button collapsed right" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                            Starts Downloading...
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour"
+                        data-bs-parent="#mainAccordion">
+                        <div class="accordion-body text-center w-auto h-25">
+                            <p class="lead text-light">Songs are started to download in the mentiond location</p>
+                            <img src="./assests/4.png" alt="previewmainmenu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="circlestep d-none d-md-flex">4</div>
+        </div>
+        <div class="container  d-flex align-items-center gap-4">
+            <div class="circlestep d-none d-md-flex">5</div>
+            <div class="flex-grow-1">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingfive">
+                        <button class="accordion-button collapsed left" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                            Locate the Output folder
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive"
+                        data-bs-parent="#mainAccordion">
+                        <div class="accordion-body text-center w-auto h-25">
+                            <p class="lead text-light">Now every songs will be here. Starts Listen ads free music!</p>
+                            <img src="./assests/5.png" style="width: 800px; height: 500px;" alt="previewmainmenu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
-            <div class="row  align-items-stretch">
-                <div class="col col-lg-6 d-flex">
-                    <div class="install-table text-light flex-grow-1 p-3">
+    </div>
+</section>
+
+    <section class="install h-100 text-center py-4 " id="installation">
+        <div class="container">
+            <h1 class="py-2 display-5 text-primary">Installation</h1>
+            <div class="install-table text-light flex-grow-1 p-3">
                         <h3><i class="fab fa-windows" style="color: #00a4ef;"></i> Windows</h3>
                         <div class="step">
                             <strong>Step 1: Download Python</strong>
@@ -70,117 +174,105 @@
                         <div class="step">
                             <strong>Step 3: Run the Script</strong>
                             <p>Navigate to the script folder using <code>cd path/to/tamil-mp3-downloader</code> and run
-                                <code>python main-classic.py</code>.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-lg-6 d-flex flex-column ">
-                    <div class="install-table text-light flex-grow-1 p-3">
-                        <h3><i class="fab fa-apple" style="color: #a2aaad;"></i> macOS</h3>
-                        <div class="step">
-                            <strong>Step 1: Open Terminal on MacOS</strong>
-                            <p>Open Terminal and run:<br>
-                                <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code>
+                                <code>python main-classic.py</code>.
                             </p>
                         </div>
-                        <div class="step">
-                            <strong>Step 2: Install Python</strong>
-                            <p>Run <code>brew install python3</code> to install Python via Homebrew.</p>
-                        </div>
-                        <div class="step">
-                            <strong>Step 3: Run the Script</strong>
-                            <p>Navigate to the script directory with <code>cd path/to/tamil-mp3-downloader</code> and
-                                execute <code>python3 main-classic.py</code>.</p>
-                        </div>
                     </div>
-                </div>
-
-            </div>
+            
         </div>
     </section>
     <section class="faq pb-5 h-100 " id="faq">
-     <div class="container">
-        <h1 class="text-center pb-5">Frequently Asked Questions</h1>
-           <div class="accordion " id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Is this tool legal?
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        This is a open source project used only for educational purpose.
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Does this script work on linux?
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                       Yes, with Python installed it runs perfectly on Linux too! Simply install Python 3 using your distribution's package manager and run the script using <code>python3 mp3-downloader.py. </code> All major Linux distributions are supported.
+        <div class="container">
+            <h1 class="text-center pb-5 text-primary display-5">Frequently Asked Questions</h1>
+            <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Is this tool legal?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-light">
+                            This is a open source project used only for educational purpose.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Does this script work on linux?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body text-light">
+                                Yes, with Python installed it runs perfectly on Linux too! Simply install Python 3 using
+                                your distribution's package manager and run the script using
+                                <code>python3 mp3-downloader.py. </code> All major Linux distributions are supported.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Do i need any dependencies?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, it's a standalone script! The tool is designed to work with Python's standard
+                                library, so you don't need to install any additional packages or dependencies. Just
+                                Python and you're ready to go.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                How large the downloads?
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Standard MP3 sizes, typically 3–10 MB per song depending on the length and quality. The
+                                tool automatically optimizes for the best balance between file size and audio quality,
+                                ensuring you get high-quality audio without excessive storage use.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                Can i custom the script?
+                            </button>
+                        </h2>
+                        <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Yes, it's open-source and editable! Feel free to modify the code to suit your needs, add
+                                new features, or improve existing functionality. We welcome contributions on GitHub, and
+                                the clean codebase makes customization straightforward even for Python beginners.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Do i need any dependencies?
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                       No, it's a standalone script! The tool is designed to work with Python's standard library, so you don't need to install any additional packages or dependencies. Just Python and you're ready to go.
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        How large the downloads?
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Standard MP3 sizes, typically 3–10 MB per song depending on the length and quality. The tool automatically optimizes for the best balance between file size and audio quality, ensuring you get high-quality audio without excessive storage use.
-                    </div>
-                </div>
-            </div>
-             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Can i custom the script?
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        Yes, it's open-source and editable! Feel free to modify the code to suit your needs, add new features, or improve existing functionality. We welcome contributions on GitHub, and the clean codebase makes customization straightforward even for Python beginners.
-                    </div>
-                </div>
-            </div>
-        </div>
-     </div>
     </section>
 
     <footer class="bg-dark text-light text-center py-5">
         <p>The above script is used only for educational Purpose</p>
-        <a class="text-decoration-none text-light" href="https://github.com/santhosh-v11/Tamil-MP-3-downloader-Landingpage"> GitHub</a>
-        <p>  Built by Open-Source Contributors  </p>
+        <a class="text-decoration-none text-light"
+            href="https://github.com/santhosh-v11/Tamil-MP-3-downloader-Landingpage"> GitHub</a>
+        <p> Built by Open-Source Contributors </p>
         <p>Version: v1.0.0 | License: MIT License</p>
-        
+
         <p>© 2025 Python MP3 Downloader. All rights reserved.</p>
         <a> </a>
     </footer>
