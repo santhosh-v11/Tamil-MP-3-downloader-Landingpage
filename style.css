@@ -3,7 +3,7 @@
     --secondary-color: #ded9ed;
     --text-colr: #f093fb;
     --gradient: linear-gradient(225deg, #667eea 0%, #764ba2 100%);
-    
+
 }
 .header {
     background-color: #050011;
@@ -146,7 +146,7 @@ section{
     border-radius: 10px !important;
 }
 .accordion-button{
-    background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);;
+    background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);
 }
 
 .faq{
@@ -155,4 +155,16 @@ section{
 .flex-grow-1 >.accordion-item,.left {
     background-color: #000000;
     border-radius: 10px !important;
+}
+.faq-acd{
+     background: linear-gradient(120deg, #667eea 0%, #764ba2 100%) !important;
+     margin-bottom: 10px !important;
+     border-radius: 30px !important;
+}
+.faq-acd > h2 > button{
+    border-radius: 30px !important; 
+    font-size:large;
+}
+.fs{
+    font-size: larger;
 }

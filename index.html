@@ -51,7 +51,7 @@
     <section class="useage pb-5 " id="workflow">
         <h2 class="text-center pt-5 text-primary display-5">How it Works</h2>
     <div class="accordion accordion-flush" id="mainAccordion">
-        <div class="container  d-flex align-items-center gap-4 ">
+        <div class="container d-flex align-items-center gap-4 ">
             <div class="circlestep d-none d-md-flex ">1</div>
             <div class="flex-grow-1">
                 <div class="accordion-item ">
@@ -158,23 +158,22 @@
 
     <section class="install h-100 text-center py-4 " id="installation">
         <div class="container">
-            <h1 class="py-2 display-5 text-primary">Installation</h1>
+            <h1 class="py-2 display-5 text-primary">Installation Guide</h1>
             <div class="install-table text-light flex-grow-1 p-3">
-                        <h3><i class="fab fa-windows" style="color: #00a4ef;"></i> Windows</h3>
+                        <!-- <h3><i class="fab fa-windows" style="color: #00a4ef;"></i> Windows</h3> -->
                         <div class="step">
-                            <strong>Step 1: Download Python</strong>
-                            <p>Visit python.org and download the latest Python installer. Run the installer and check
-                                "Add Python to PATH".</p>
+                            <strong>Step1: Clone this repository to your local machine <a class="fab fa-github text-light" href="https://github.com/anburocky3/tamil-mp3-downloader.git"></a></strong>
+                            <p class="ps-sm-5 m-2 text-start">Click the download and then open it on your windows</p>
                         </div>
                         <div class="step">
-                            <strong>Step 2: Open CMD</strong>
-                            <p>Press Win + R, type "cmd", and press Enter to open Command Prompt.</p>
+                            <strong>Step2: Make sure you have <a href="https://www.python.org/downloads/" class="text-light">Python 3.10+</a> installed. You can check by running</strong>
+                            <p class="ms-sm-5 m-1"><code class="bg-dark p-2 d-block">python --version</code><code class="bg-dark p-2 d-block"> install -r requirements.txt</code></p>
                         </div>
 
                         <div class="step">
-                            <strong>Step 3: Run the Script</strong>
-                            <p>Navigate to the script folder using <code>cd path/to/tamil-mp3-downloader</code> and run
-                                <code>python main-classic.py</code>.
+                            <strong>Step3: Open Terminal then Run the Script</strong>
+                            <p class="ms-sm-5 m-1">Navigate to the script folder using <span class="text-dark fw-semibold">cd path/to/tamil-mp3-downloader</span> and then run this command
+                                <code class="bg-dark p-2">   python main.py</code>.
                             </p>
                         </div>
                     </div>
@@ -184,37 +183,37 @@
     <section class="faq pb-5 h-100 " id="faq">
         <div class="container">
             <h1 class="text-center pb-5 text-primary display-5">Frequently Asked Questions</h1>
-            <div class="accordion accordion-flush" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <div class="accordion accordion-flush" id="accordionExample" >
+                <div class="accordion-item faq-acd"  >
+                    <h2 class="accordion-header rounded-4" id="headingOne">
+                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="border-radius: 50px !important;" >
                             Is this tool legal?
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    <div id="collapseOne" class="accordion-collapse collapse fs-6" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body text-light">
+                        <div class="accordion-body fs text-light ">
                             This is a open source project used only for educational purpose.
                         </div>
                     </div>
-                    <div class="accordion-item">
+                </div>
+                    <div class="accordion-item faq-acd bg-dark">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Does this script work on linux?
                             </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        <div id="collapseTwo" class="accordion-collapse collapse fs-6" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body text-light">
-                                Yes, with Python installed it runs perfectly on Linux too! Simply install Python 3 using
-                                your distribution's package manager and run the script using
-                                <code>python3 mp3-downloader.py. </code> All major Linux distributions are supported.
+                            <div class="accordion-body fs text-light">
+                                Yes, with Python installed it runs perfectly on Linux too! Simply install Python 3.10+ and install the required dependencies then run the script using
+                                <code class="bg-dark px-1">python main.py</code> All major Linux distributions are supported. Read this Developer Instruction or Read this <a href="https://github.com/anburocky3/tamil-mp3-downloader" class=" text-light fw-semibold "  >Repository</a> for more info
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item faq-acd bg-dark">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -223,14 +222,14 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs text-light">
                                 No, it's a standalone script! The tool is designed to work with Python's standard
                                 library, so you don't need to install any additional packages or dependencies. Just
                                 Python and you're ready to go.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item faq-acd bg-dark">
                         <h2 class="accordion-header" id="headingfour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
@@ -239,14 +238,14 @@
                         </h2>
                         <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
+                            <div class="accordion-body fs text-light">
                                 Standard MP3 sizes, typically 3–10 MB per song depending on the length and quality. The
                                 tool automatically optimizes for the best balance between file size and audio quality,
                                 ensuring you get high-quality audio without excessive storage use.
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <div class="accordion-item faq-acd bg-dark ">
                         <h2 class="accordion-header" id="headingfive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
@@ -255,27 +254,23 @@
                         </h2>
                         <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
                             data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Yes, it's open-source and editable! Feel free to modify the code to suit your needs, add
-                                new features, or improve existing functionality. We welcome contributions on GitHub, and
-                                the clean codebase makes customization straightforward even for Python beginners.
+                            <div class="accordion-body text-light fs">
+                                Yes, it's open-source and editable! Feel free to modify the code and add
+                                new features or improve existing functionality.<a href="https://github.com/anburocky3/tamil-mp3-downloader"><i class="fab fa-github text-light"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
     </section>
-
-    <footer class="bg-dark text-light text-center py-5">
-        <p>The above script is used only for educational Purpose</p>
-        <a class="text-decoration-none text-light"
-            href="https://github.com/santhosh-v11/Tamil-MP-3-downloader-Landingpage"> GitHub</a>
-        <p> Built by Open-Source Contributors </p>
-        <p>Version: v1.0.0 | License: MIT License</p>
-
-        <p>© 2025 Python MP3 Downloader. All rights reserved.</p>
-        <a> </a>
+    <footer class="bg-dark p-sm-3 p-1 text-center">
+        <!-- <p class="lead d-inline text-light"> Design and developed by Santhosh.V</p> -->
+        <!-- <a class=" text-light" href="https://github.com/santhosh-v11/Tamil-MP-3-downloader-Landingpage" target="_blank"><i class="fa-solid fa-arrow-up-right-dots"></i></a> -->
+        <p class="text-start text-light text-center font-monospace">Python Script coded by <a class="text-decoration-none lead text-light" href="https://github.com/anburocky3">Mr.AnbuselvanAnnamalai </a>Langing page designed and developed by <a class="text-decoration-none text-light lead" href="https://github.com/santhosh-v11">Santhosh.V<i class="ps-2 fa-solid fa-arrow-up-right-dots"></i></a></p>
+        <p class="small text-light ">©2025 TamilMP3 Downloader</p>
+        
     </footer>
+    
 
 
 
